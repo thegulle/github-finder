@@ -17,9 +17,6 @@ function App() {
   const [user, setUser] = useState({})
   return (
     <React.Fragment>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
       <Header title="Github Finder" />
       <div className="container">
         <div className="form-container mt-3">

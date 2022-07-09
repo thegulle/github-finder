@@ -23,8 +23,9 @@ class FormFinder extends Component {
                     <input type="text" id="large-input" name="findUsername"
                         onChange={(e) => this.setState({ username: e.target.value })}
                         value={this.state.username}
-                        className="block w-full p-2 border
-                            dark:placeholder-gray-400 dark:text-dark focus:outline-0" />
+                        className="rounded-lg block w-full p-2 border
+                            dark:placeholder-gray-400 dark:text-dark focus:outline-0"
+                        autoFocus />
                 </div>
             </form>
         );
